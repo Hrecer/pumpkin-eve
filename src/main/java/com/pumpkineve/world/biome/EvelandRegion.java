@@ -19,7 +19,7 @@ import java.util.function.Consumer;
 
 public class EvelandRegion extends Region {
     
-    public static final ResourceLocation LOCATION = ResourceLocation.fromNamespaceAndPath(PumpkineveMod.MOD_ID, "eveland_region");
+    public static final ResourceLocation LOCATION = new ResourceLocation(PumpkineveMod.MOD_ID, "eveland_region");
     
     public EvelandRegion() {
         super(LOCATION, RegionType.OVERWORLD, 1); // 权重为1，使群系更加稀有

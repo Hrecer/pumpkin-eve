@@ -22,7 +22,7 @@ public class PumpkinEveModBiomes {
     
     // Eveland群系的ResourceKey
     public static final ResourceKey<Biome> EVELAND_KEY = ResourceKey.create(Registries.BIOME, 
-        ResourceLocation.fromNamespaceAndPath(PumpkineveMod.MOD_ID, "eveland"));
+        new ResourceLocation(PumpkineveMod.MOD_ID, "eveland"));
     
     // 注册自定义生物群系
     public static final RegistryObject<Biome> EVELAND = REGISTRY.register("eveland", 
